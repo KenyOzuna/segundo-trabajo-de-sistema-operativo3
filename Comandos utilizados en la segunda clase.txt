@@ -1,0 +1,72 @@
+Primer paso:
+instalacion de centos Linux
+
+cls
+time
+date 
+
+Primera Practica:
+1:paso = crear user y password 
+2:paso = configurar hadware : memory, processos, hand disk , dvd, network adapter , end other.
+
+
+Segunda Practica:
+sudo su
+sudo adduser keny001
+pwd
+ls
+sudo groupadd guest
+sudo usermod -aG  guest keny001
+cat /etc/password
+sudo groupdel guest
+sudo userdel keny001
+ls
+cd ..
+pwd
+cat /etc/password
+cd 
+
+
+Tercera Practica:
+ls
+pwd
+date
+sudo su
+ifconfig
+nano /etc/sysconfig/network-scripts//ifefg-eno16777736
+edito : BOOTPROTO= none
+ipadd
+netmask
+gateway
+DNS
+ipconfig /all
+control + o 
+control + x
+ifconfig
+reboot
+
+
+Cuarta Practica:
+sudo su
+mkdir materia
+cd materia
+ls
+pwd
+touch estudiante.txt
+ls
+nano estudiante.txt
+cat estudiante.txt
+ls -l
+ls -a
+sudo chmod 600 estudiante.txt
+cd ..
+mkdir materia2
+sudo cp estudiante.txt /home/kenyozuna/materia2
+ls
+pwd
+sudo rm materia.txt
+sudo rm -r materia2
+sudo rm -r materia
+
+
+  
